@@ -195,7 +195,7 @@ def run(nhids, lamda, act_fn, ae_epochs,bs):
 	##############
 	tag = 'ovronly_ae_keras'+'_act_'+act_fn+'_nh_'+str(nhids)+'_lamda_'+str(lamda)+'_ae_epochs_'+str(ae_epochs)+'_bs_'+str(bs)
 	##############
-	print tag
+	print (tag)
 
 	ae_wts = directory+'/'+tag+'_weights.h5'
 	chkp = ModelCheckpoint(filepath=ae_wts,monitor='val_loss',period=1,save_best_only=True,save_weights_only=False,verbose=0)
