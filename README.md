@@ -13,7 +13,7 @@ We study the emergence of sparse representations in neural networks. We show tha
 <br>
 https://arxiv.org/abs/1903.02893
 
-**Team**
+**Contributers**
 <br>
 Kishore Reddy Konda
 <br>
