@@ -7,7 +7,7 @@ We study the emergence of sparse representations in neural networks. We show tha
 
 **Run the file**
 <br>
-'python ovr_encoder_git.py --encoded_size 8000 --lamda 0.0001'
+'python ovr_encoder_git.py --encoded_size=8000 --lamda=0.0001'
 
 **Article**
 <br>
